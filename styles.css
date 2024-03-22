@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Bullet Regular';
+  src: url('./fonts/bullet-regular.ttf') format('truetype');
+}
+
+body {
+  background-image: url('./img/tlo.png');
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.966);
+  text-shadow: 6px 5px 6px black;
+  font-family: 'Bullet Regular';
+}
+
+.main-section {
+  width: 70%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.784);
+  padding: 0px;
+  width: 80%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  min-width: 150px;
+  min-height: 50px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.warning-container {
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#p-1 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.introduction-contaner {
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.img-container {
+  width: 100%;
+}
+
+#img-1 {
+  width: 60%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#img-2 {
+  width: 45%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#img-3 {
+  width: 45%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#gif-1 {
+  width: 25%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 55px;
+}
