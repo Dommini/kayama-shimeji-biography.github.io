@@ -131,7 +131,7 @@ button:hover {
 .powiekszone-zdjecie {
   display: none;
   position: fixed;
-  padding: 80px;
+  padding-top: 80px;
   top: 0;
   left: 0;
   width: 100%;
