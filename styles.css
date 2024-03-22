@@ -131,6 +131,7 @@ button:hover {
 .powiekszone-zdjecie {
   display: none;
   position: fixed;
+  padding: 80px;
   top: 0;
   left: 0;
   width: 100%;
@@ -172,7 +173,6 @@ button:hover {
   font-family: sans-serif;
   bottom: 10px; /* odstęp od dolnej krawędzi zdjęcia */
   left: 50%;
-  padding: 80px;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
