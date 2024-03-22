@@ -5,6 +5,7 @@
 
 body {
   background-image: url('./img/tlo.png');
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.9);
   background-size: cover;
 }
@@ -130,6 +131,7 @@ button:hover {
 .powiekszone-zdjecie {
   display: none;
   position: fixed;
+  padding-top: 80px;
   top: 0;
   left: 0;
   width: 100%;
@@ -202,4 +204,27 @@ button:hover {
   height: auto;
   cursor: pointer;
   opacity: 0.5;
+}
+
+.img-cintaner {
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  position: absolute;
+  top: 79%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: none;
+  color: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
