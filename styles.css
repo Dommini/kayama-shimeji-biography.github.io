@@ -193,12 +193,12 @@ button:hover {
 
 .button {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 79%;
+  left: 68%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: none;
+  color: none;
   text-decoration: none;
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -206,6 +206,6 @@ button:hover {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  transform: scale(1.1);
 }
 
