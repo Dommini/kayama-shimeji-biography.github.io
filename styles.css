@@ -5,6 +5,7 @@
 
 body {
   background-image: url('./img/tlo.png');
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.9);
   background-size: cover;
 }
