@@ -2,34 +2,11 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="icon" type="image/gif" href="img/full_x3_happy.gif" />
-    <title>kayama shimeji biography</title>
+    <link rel="icon" type="image/gif" href="img/full_x3_happy.gif">
+    <title>kayama shimeji biography
+</title>
   </head>
   <body>
-    <canvas id="favicon-canvas" width="32" height="32"></canvas>
-
-    <script>
-      window.onload = function () {
-        var canvas = document.getElementById('favicon-canvas')
-        var context = canvas.getContext('2d')
-        var image = new Image()
-        image.src = 'animated-favicon.gif'
-        image.onload = function () {
-          context.drawImage(image, 0, 0, 32, 32)
-          updateFavicon()
-        }
-
-        function updateFavicon() {
-          var link =
-            document.querySelector("link[rel*='icon']") ||
-            document.createElement('link')
-          link.type = 'image/x-icon'
-          link.rel = 'shortcut icon'
-          link.href = canvas.toDataURL('image/png')
-          document.getElementsByTagName('head')[0].appendChild(link)
-        }
-      }
-    </script>
     <h1>Kayama Shimeji Biography</h1>
 
     <div class="button-container">
