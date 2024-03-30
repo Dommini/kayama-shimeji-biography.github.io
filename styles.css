@@ -17,11 +17,22 @@ h1 {
   font-family: 'Bullet Regular';
 }
 
+h2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.966);
+}
+
 h5,
 h4 {
   text-align: center;
   color: #ffff;
   margin: 0%;
+}
+
+.title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.966);
+  font-size: x-large;
 }
 
 .main-section {
@@ -86,7 +97,7 @@ button:hover {
   width: 60%;
   height: auto;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 #img-2 {
@@ -227,4 +238,49 @@ button:hover {
 
 .button:hover {
   transform: scale(1.1);
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.name {
+  text-align: center;
+  color: #181616;
+  background-color: #ebb1ff;
+  margin-top: 0;
+  margin-bottom: 0;
+  user-select: none;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+  width: 30%;
+}
+td {
+  width: 70%;
+}
+
+.expand-icon {
+  display: inline-block; /* Lub display: block, w zależności od potrzeb */
+  transform-origin: center; /* Ustawienie punktu początkowego transformacji */
+  transition: transform 0.5s ease; /* Dodanie płynności dla transformacji */
 }
