@@ -3,6 +3,10 @@
   src: url('./fonts/bullet-regular.ttf') format('truetype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url('./img/tlo.png');
   background-repeat: no-repeat;
