@@ -311,3 +311,25 @@ td {
   opacity: 1;
   animation: expandTable 0.5s ease; /* Dodaj animację */
 }
+
+/* Pasek przewijania */
+::-webkit-scrollbar {
+  width: 10px; /* Szerokość paska przewijania */
+}
+
+/* Ścieżka paska przewijania */
+::-webkit-scrollbar-track-piece {
+  background-color: #f2f2f2; /* Kolor tła ścieżki paska przewijania, dopasuj do tła strony */
+  border-radius: 5px; /* Zakrąglenie krawędzi ścieżki */
+}
+
+/* Kciuk paska przewijania */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Kolor kciuka paska przewijania */
+  border-radius: 5px; /* Zakrąglenie kciuka paska przewijania */
+}
+
+/* Hover nad kciukiem paska przewijania */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Kolor kciuka paska przewijania po najechaniu */
+}
