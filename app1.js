@@ -12,6 +12,7 @@ buttonTitles.forEach(function (buttonTitle) {
   // Dodaj nasłuchiwanie zdarzenia kliknięcia
   buttonTitle.addEventListener('click', function () {
     // Toggle klasy "hidden" dla tabeli
+    table.classList.toggle('visible')
     table.classList.toggle('hidden')
 
     // Zmieniaj ikonę "+" na "-" (i na odwrót) dla diva .expand-icon
