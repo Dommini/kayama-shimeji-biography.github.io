@@ -14,6 +14,10 @@ body {
   background-size: cover;
 }
 
+a {
+  color: white;
+}
+
 h1 {
   text-align: center;
   color: rgba(255, 255, 255, 0.966);
@@ -81,6 +85,12 @@ button:hover {
   color: white;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+#madeBy {
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
 #p-1 {
