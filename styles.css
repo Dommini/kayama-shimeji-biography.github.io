@@ -366,30 +366,30 @@ td {
 /* Styl dla ciemnego motywu */
 body.dark-mode {
   background-color: #121212; /* Ciemniejsze tło dla całego dokumentu */
-  color: #fff; /* Jasnoszary tekst */
+  color: #e0e0e0; /* Jasnoszary tekst */
 }
 
 .main-section.dark-mode {
   background-color: #1e1e1e; /* Ciemniejsze tło dla sekcji głównej */
-  color: #fff; /* Jasnoszary tekst */
+  color: #e0e0e0; /* Jasnoszary tekst */
 }
 
 .button-container button.dark-mode {
-  background-color: #000; /* Ciemnoszare przyciski */
-  color: #FFF; /* Jasnoszary tekst na przyciskach */
+  background-color: #333; /* Ciemnoszare przyciski */
+  color: #e0e0e0; /* Jasnoszary tekst na przyciskach */
   border: 1px solid #666; /* Ciemniejszy kolor obramowania */
 }
 
 table.dark-mode {
-  background-color: #000; /* Ciemniejsze tło dla tabeli */
-  color: #fff; /* Jasnoszary tekst w tabeli */
+  background-color: #1e1e1e; /* Ciemniejsze tło dla tabeli */
+  color: #e0e0e0; /* Jasnoszary tekst w tabeli */
 }
 
 th.dark-mode,
 td.dark-mode {
   border: 1px solid #666; /* Ciemniejsze obramowanie komórek */
-  background-color: #000; /* Ciemniejsze tło komórek */
-  color: #fff; /* Jasnoszary tekst */
+  background-color: #2a2a2a; /* Ciemniejsze tło komórek */
+  color: #e0e0e0; /* Jasnoszary tekst */
 }
 
 hr.dark-mode {
@@ -405,6 +405,7 @@ h2.dark-mode,
 h4.dark-mode,
 h5.dark-mode {
   color: #ffffff; /* Biały kolor dla nagłówków */
+  text-shadow: 4px 3px 5px #000; /* Czarny cień pod tekstem */
 }
 
 .title.dark-mode {
@@ -414,7 +415,7 @@ h5.dark-mode {
 /* Inne elementy jak formularze, pola tekstowe, itp. */
 input.dark-mode,
 textarea.dark-mode {
-  background-color: #000; /* Ciemnoszare tło pól formularzy */
-  color: #fff; /* Jasnoszary tekst */
+  background-color: #333; /* Ciemnoszare tło pól formularzy */
+  color: #e0e0e0; /* Jasnoszary tekst */
   border: 1px solid #666; /* Ciemniejsze obramowanie */
 }
