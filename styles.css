@@ -347,3 +347,18 @@ td {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555; /* Kolor kciuka paska przewijania po najechaniu */
 }
+@media only screen and (max-width: 600px) {
+  .main-section {
+    width: 90%;
+  }
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .button-container button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

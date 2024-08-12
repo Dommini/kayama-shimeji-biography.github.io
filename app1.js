@@ -29,3 +29,10 @@ buttonTitles.forEach(function (buttonTitle) {
     }
   })
 })
+document.addEventListener('DOMContentLoaded', function () {
+  var link = document.createElement('link')
+  link.rel = 'icon'
+  link.type = 'image/gif'
+  link.href = 'img/full_x3_happy.gif' // Ścieżka do Twojego GIF-a
+  document.head.appendChild(link)
+})
