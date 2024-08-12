@@ -375,8 +375,8 @@ body.dark-mode {
 }
 
 .button-container button.dark-mode {
-  background-color: #333; /* Ciemnoszare przyciski */
-  color: #e0e0e0; /* Jasnoszary tekst na przyciskach */
+  background-color: #000; /* Ciemnoszare przyciski */
+  color: #FFF; /* Jasnoszary tekst na przyciskach */
   border: 1px solid #666; /* Ciemniejszy kolor obramowania */
 }
 
@@ -405,7 +405,6 @@ h2.dark-mode,
 h4.dark-mode,
 h5.dark-mode {
   color: #ffffff; /* Biały kolor dla nagłówków */
-  text-shadow: 4px 3px 5px #000; /* Czarny cień pod tekstem */
 }
 
 .title.dark-mode {
