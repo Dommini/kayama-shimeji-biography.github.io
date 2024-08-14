@@ -8,8 +8,8 @@ html {
 }
 
 body {
-  background-image: url('./img/tlo.png');
-  background-repeat: no-repeat;
+  background-image: url('./img/tło2\ nowe!.png');
+  background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0.9);
   background-size: cover;
 }
