@@ -8,10 +8,10 @@ html {
 }
 
 body {
-  background-image: url('./img/tło2\ nowe!.png');
-  background-repeat: repeat;
+  background-image: url('./img/tło2.png');
+  background-repeat: repeat-y;
   background-color: rgba(0, 0, 0, 0.9);
-  background-size: cover;
+  background-size: 100%;
 }
 
 a {
@@ -44,9 +44,13 @@ h4 {
 }
 
 .main-section {
+  background: url(img/Logo_of_Hope.png);
+  background-repeat: repeat-y;
+  background-position: center 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-size: 50%;
   width: 70%;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
   padding-top: 20px;
 }
@@ -263,7 +267,7 @@ button:hover {
 .name {
   text-align: center;
   color: #ffffff;
-  background-color: #ebb1ff;
+  background-color: #768ed7;
   margin-top: 0;
   margin-bottom: 0;
   user-select: none;
