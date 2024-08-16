@@ -251,9 +251,10 @@ button:hover {
 #glow {
   /* make a mjutton on rigst top */
   position: absolute;
-  top: 0;
+  top: 2%;
   right: 0;
-  background-color: #e492ff;
+  background-color: rgba(0, 0, 0, 0);
+  border: black solid 1px;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
