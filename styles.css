@@ -248,6 +248,18 @@ button:hover {
   display: inline-block;
 }
 
+#glow {
+  /* make a mjutton on rigst top */
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #e492ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .button {
   position: absolute;
   top: 79%;
