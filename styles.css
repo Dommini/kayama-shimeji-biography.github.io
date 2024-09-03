@@ -25,7 +25,8 @@ h1 {
   font-family: 'Bullet Regular';
 }
 
-h2 {
+h2,
+h3 {
   text-align: center;
   color: rgba(255, 255, 255, 0.966);
 }
@@ -35,6 +36,12 @@ h4 {
   text-align: center;
   color: #ffff;
   margin: 0%;
+}
+
+.sign {
+  color: white;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .title {
