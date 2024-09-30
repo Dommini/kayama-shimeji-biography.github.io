@@ -137,6 +137,10 @@ button:hover {
   width: 100%;
 }
 
+.img-container-2 {
+  size: 50%;
+}
+
 #img-1 {
   width: 60%;
   height: auto;
