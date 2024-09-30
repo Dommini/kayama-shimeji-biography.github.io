@@ -18,6 +18,11 @@ a {
   color: white;
 }
 
+p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.966);
+}
+
 h1 {
   text-align: center;
   color: rgba(255, 255, 255, 0.966);
