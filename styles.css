@@ -340,6 +340,22 @@ th {
 td {
   width: 70%;
 }
+.header {
+  display: flex;
+  justify-content: space-between; /* Position elements at opposite ends */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Optional padding */
+}
+
+.logo {
+  width: 3380px; /* Set width */
+  height: 883px; /* Set height */
+  object-fit: contain; /* Maintain aspect ratio */
+}
+
+.home-button {
+  /* Existing styles for the home button can remain here */
+}
 
 .expand-icon {
   display: inline-block; /* Lub display: block, w zależności od potrzeb */
