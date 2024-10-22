@@ -348,7 +348,7 @@ td {
 }
 
 .logo {
-  width: 300px; /* Adjust this value to reduce the size */
+  width: 500px; /* Adjust this value to reduce the size */
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensure the image fits well */
 }
