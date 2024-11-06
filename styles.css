@@ -325,6 +325,13 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
+.tableLoves {
+  text-align: center;
+}
+#text {
+  text-align: center;
+}
 th,
 td {
   padding: 10px;
