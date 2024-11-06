@@ -337,9 +337,6 @@ th {
   background-color: #f2f2f2;
   width: 30%;
 }
-td {
-  width: 70%;
-}
 .header {
   display: flex;
   flex-direction: column; /* Stack items vertically */
