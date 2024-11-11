@@ -432,3 +432,8 @@ th {
   overflow: hidden; /* Zapobiega prześwitywaniu */
   margin-bottom: 20px; /* Dodaj odstęp między kontenerami */
 }
+
+td img {
+  display: block;
+  margin: 0 auto;
+}
