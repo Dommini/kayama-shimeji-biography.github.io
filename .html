@@ -1,1 +1,21 @@
-<!DOCTYPE html><link href="styles.css" rel="stylesheet"><link href="img/full_x3_happy.gif" rel="icon" type="image/gif"><title>HPA Student Files</title><div class="main-section-2"><div class="title"><h2>?????????</h2></div><h2>??????????????????????</h2><br><img alt="" id="gif-1" src="./img/ezgif.gif"><br><h2></h2></div>
+<!DOCTYPE html>
+<link href="styles.css" rel="stylesheet" />
+<link href="img/full_x3_happy.gif" rel="icon" type="image/gif" />
+<title>HPA Student Files</title>
+<div class="main-section-2" style="position: relative;">
+    <div class="title">
+        <h2>?????????</h2>
+    </div>
+    <h2>??????????????????????</h2>
+    <br /><img alt="" id="gif-1" src="./img/ezgif.gif" />
+    <br id="question-br" />
+</div>
+<div id="question-container" style="position: relative; height: 200vh;"></div>
+<script>
+    setInterval(() => {
+        const br = document.createElement('br');
+        const questionMark = document.createTextNode('?');
+        document.querySelector('.main-section-2').appendChild(br);
+        document.querySelector('.main-section-2').appendChild(questionMark);
+    }, 10); // co 1 sekundę
+</script>
