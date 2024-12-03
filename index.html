@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <link rel="icon" type="image/gif" href="img/full_x3_happy.gif" />
   <title>HPA Student Files</title>
@@ -218,8 +219,8 @@
     </div>
     <hr />
     <div class="img-container">
-      <img id="img-1" src="img/Chart14.webp" alt="kama" />
-      <a href="Personality.html" class="button">
+      <img id="img-1" src="img/Chart14.webp" alt="kama" data-src="img/Chart14.webp" class="zdjecie" />
+      <a href=".html" class="button">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </a>
     </div>
@@ -234,7 +235,14 @@
       <img src="/img/deviantart.png" alt="Przycisk 2" />
     </a>
   </div>
+  <div class="powiekszone-zdjecie" style="display: none;">
+    <span class="zamknij" style="cursor: pointer;">&times;</span>
+    <span class="prev" style="cursor: pointer;">&#10094;</span>
+    <img src="" alt="Powiększone Zdjęcie" class="powiekszenie" />
+    <span class="next" style="cursor: pointer;">&#10095;</span>
+  </div>
   <script src="app1.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
